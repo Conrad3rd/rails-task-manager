@@ -1,2 +1,6 @@
-<h1>Task: <%= @task.title %></h1>
-<h2>details: <%= @task.details %></h2>
+<h1>Task</h1>
+<h2>Title: <%= @task.title %></h2>
+<h2>Details: <%= @task.details %></h2>
+<span><%= link_to "Back to list:", tasks_path %></span>
+<span>&emsp;</span>
+<span><%= link_to "Update:", edit_path %></span>
